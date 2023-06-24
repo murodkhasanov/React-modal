@@ -1,0 +1,23 @@
+.btn {
+    display: block;
+    margin: 30px auto;
+    width: 120px;
+    height: 34px;
+    border: 1px solid #e31b59;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.imgs>img {
+    width: 250px;
+    height: 140px;
+    border-radius: 8px;
+
+}

@@ -1,0 +1,36 @@
+.dada {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.dada>div {
+    margin: 13px;
+    background-color: rgb(215, 221, 221);
+    border-radius: 8px;
+    width: 510px;
+    height: 50px;
+    padding: 15px;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .dada>div {
+      width: 330px;
+      height: 35px;
+      margin: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .dad>h2 {
+        position: relative;
+        bottom: 14px;
+    }
+    .nma {
+        position: relative;
+        bottom: 50px;
+    }
+    .dada>div>span {
+        display: none;
+    }
+  }
